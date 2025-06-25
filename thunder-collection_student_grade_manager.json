@@ -1,0 +1,74 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "student_grade_manager",
+    "collectionId": "20278a6b-7c3f-4098-a8b0-cfa612bd1d60",
+    "dateExported": "2025-06-25T22:17:01.524Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "cf8f1fcd-1dc8-44ad-8102-8e2175089579",
+            "colId": "20278a6b-7c3f-4098-a8b0-cfa612bd1d60",
+            "containerId": "",
+            "name": "http://localhost:3000/grades",
+            "url": "http://localhost:3000/grades",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2025-06-25T22:07:50.702Z",
+            "modified": "2025-06-25T22:07:50.702Z",
+            "headers": []
+        },
+        {
+            "_id": "31820b86-fdb9-4eca-b8fc-c2e6886c37a0",
+            "colId": "20278a6b-7c3f-4098-a8b0-cfa612bd1d60",
+            "containerId": "",
+            "name": "http://localhost:3000/grades",
+            "url": "http://localhost:3000/grades",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2025-06-25T22:11:02.119Z",
+            "modified": "2025-06-25T22:11:02.119Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"studentName\": \"João Vitor\",\n  \"subject\": \"English\",\n  \"grade\": \"10\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "865cbb3f-84ab-4427-a5d8-7181a997e852",
+            "colId": "20278a6b-7c3f-4098-a8b0-cfa612bd1d60",
+            "containerId": "",
+            "name": "http://localhost:3000/grades",
+            "url": "http://localhost:3000/grades",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2025-06-25T22:14:34.659Z",
+            "modified": "2025-06-25T22:14:34.659Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"studentName\": \"João Vitor\",\n  \"subject\": \"English\",\n  \"grade\": \"10\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "e11c89be-7687-4273-9462-b18bad21b6fd",
+            "colId": "20278a6b-7c3f-4098-a8b0-cfa612bd1d60",
+            "containerId": "",
+            "name": "http://localhost:3000/grades",
+            "url": "http://localhost:3000/grades",
+            "method": "DELETE",
+            "sortNum": 40000,
+            "created": "2025-06-25T22:14:44.633Z",
+            "modified": "2025-06-25T22:14:44.633Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"studentName\": \"João Vitor\",\n  \"subject\": \"English\",\n  \"grade\": \"10\"\n}",
+                "form": []
+            }
+        }
+    ],
+    "ref": "x8f2eBEXCkBvjoN2YdKgt0pP5Vf7oEOLJdff1Ga0P5zkp_-5alJI2zcCajeLXrdB06PAuNAoFJd6BXGlQMlSxQ"
+}
